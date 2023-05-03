@@ -1,0 +1,845 @@
+/* Body CSS */
+* {
+    box-sizing: border-box;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+
+}
+body {
+    font-family: 'Dosis', sans-serif !important;
+    transition: background-color .3s;
+ }
+
+
+/* Header Navbar CSS */
+.header{
+
+    background-color: #223047;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+} 
+.Nav-logo{
+    font-size: 34.98px;
+    color: #00fff0;
+    cursor: pointer;
+    padding-left: 66px;
+    padding-top: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.Registered-Icon{
+    font-size: 20px;
+    color: #00fff0;
+    cursor: pointer;   
+}
+.Registered-Icon:hover ,.Nav-logo:hover{
+    color: #18b3ab;
+}
+li, a{
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-links{
+    list-style: none;
+    padding-right: 130px;
+    padding-top: 12px;
+    align-items: center;
+   
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s ;
+}
+.bi{
+    margin-left: 10px !important;
+}
+.nav-links li a:hover{
+    color: #18b3ab;
+}
+.get-button{
+    font-size: 14px;
+    color: #233148;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+    background-color: #00fff0;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 34px;
+    padding-top: auto;
+    border-radius: 8px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+}
+.get-button:hover{
+    background-color: #18b3ab;
+}
+.line{
+    color: #18b3ab;
+    margin-top: -3px;
+
+}
+.dropdown-menu {
+    font-weight: bolder;
+    font-size: medium;
+    display: block;
+    top: 100%;
+    background-color: #233148;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+.dropdown-menu:hover{
+    background-color: #00fff0;
+}
+.nav-links:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu ul li{
+    width: 200px;
+    padding: 10px;
+}
+.toggle{
+    padding-left: 25px !important;
+    padding-top: auto;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #223047;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #18b3ab;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #00fff0;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Main CSS */
+.main{
+    background-color: #223047;
+
+}
+#Choose-heading{
+    color: aliceblue;
+    font-size: 39.43px;
+    padding-top: 175px;
+    padding-left: 48.8px;
+    letter-spacing: 2px;
+}
+#Cras-Para{
+    color: aliceblue;
+    font-size: 13.8px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-top: 45px;
+    padding-left: 45px;
+    
+}
+.download-button{
+    margin-left: 48px;
+    width: 170px;
+    height: 40px;
+    margin-top: 36px;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    font-size: 14px;
+    background-color: #19ebe9;
+}
+.download-button:hover{
+    background-color: #223047;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+}
+.reach-button{
+    margin-left: 57px;
+    width: 150px;
+    height: 40px;
+    margin-top: 36px;
+    border-color: aliceblue;
+    border-radius: 8px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 3px;
+    letter-spacing: 0.3px;
+    background-color: #223047;
+    color: aliceblue;
+
+}
+.reach-button:hover{
+    background-color: #19ebe9;
+}
+.main-mobile{
+   margin-top: 115px;
+   margin-left: 70px;
+   margin-bottom: -80px;
+}
+
+
+/* Services CSS */
+.services{
+    margin-bottom: 120px;
+}
+.dash-line{ 
+    color: #30f8ed;
+    width: 23%;
+    padding-top: 5px;
+    margin-left: 145px;
+    margin-top: 77px;
+}
+.Everthing-heading{
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: .5px;
+    padding-top: 200px;
+    padding-right: 5px;
+    line-height: 35px;
+}
+.card-img-top{
+    width: 130px !important;
+}
+.card{
+    text-align: center; 
+    width: 270px;
+    height: 325px;
+    padding-top: 25.5px;
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 55px;
+    border: none;
+}
+.card:hover{
+    background-color: #00fff0;
+}
+.card-title{
+    padding-top: 8px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.card-text{
+    padding-top: 12px;
+    line-height: 30px;
+    font-size: 14px;
+ 
+}
+
+
+
+/* Company-Info CSS */
+.Info-left-content{
+    background-color: #323a4d;
+    margin-bottom: 0px;
+}
+.Get-heading{
+    font-size: 30px;
+    padding-left: 3px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.Info-Cras-Para{
+    font-size: 14px;
+    padding-left: 3px;
+    padding-top: 33px;
+    line-height: 30px;
+    word-spacing: 2px;
+    color: #b3bccf;
+    font-weight: bold;
+}
+.Info-right-content{
+    margin-top: 140px;
+    margin-bottom: 110px;
+}
+.company-info{
+    background-color: #f5f6fa;
+    margin-bottom: 150px;
+}
+
+
+/* App Presentation Top CSS */
+.App-heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-top: -11px;
+}
+.App-Cras-Para{
+    text-align: right;
+    padding-top: 37px;
+    line-height: 27px;
+    word-spacing: -2px;
+    color: #d9dde6;
+    font-weight: bold;
+}
+.Free-button{
+    margin-top: 30px;
+    margin-left: 325px;
+    width: 200px;
+    height: 53px;
+    border: none;
+    border-radius: 10px;
+    word-spacing: 2.5px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    background-color: #00fff0;
+}
+.Free-button:hover{
+    background-color: #233148;
+    color: #f5f6fa;
+}
+.window-image{
+    margin-top: -32px;
+    margin-left: -12px;
+}
+
+
+/* App Presentation Middle CSS */
+.Screen-mobile-image{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.app-middle-cards{
+    margin-top: 110px; 
+}
+.cards{
+    margin-left: 8px;
+    width: 34rem;
+    height: 5rem;  
+    padding-left: 35px;
+    padding-top: 25px;
+    letter-spacing: -1px;
+    word-spacing: 13px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.cards:hover{
+    background-color: #00fff0;
+    color: aliceblue;
+}
+.cards-2{
+    margin-left: 8px;
+    width: 34rem;
+    height: 9rem;  
+    padding-left: 45px;
+    padding-top: 30px;
+    letter-spacing: -1px;
+    word-spacing: 13px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #00fff0;
+}
+.cards-2:hover{
+    background-color: #223047;
+    color: aliceblue;
+}
+.App-Cras-Para-middle{
+    padding-left: 34px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    line-height: 25px;
+
+}
+
+
+/* App Presentation Bottom CSS */
+.App-Bottom{
+    background-color: #f5f6fa;
+    margin-top: -70px;
+
+}
+.Everthing-App-Heading{
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    padding-top: 140px;
+
+
+}
+.dot-Android , .dot-iphone {
+    height: 20px;
+    width: 20px;
+    background-color: #00fff0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 475px;
+    margin-top: 36.5px;
+}
+.Icon-Android , .Icon-iphone{
+    padding-left: 210px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.dot-iphone{
+    margin-top: 7px;
+}
+.Icon-iphone{
+    padding-top: 0px;   
+}
+.Cras-Para-App-Bottom{
+    font-size: 14px;
+    color: #a5b0c7;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: right;
+    line-height: 30px;
+    word-spacing: 2px;
+    padding-right: -8px;
+}
+.three-images-app{
+    padding-top: 50px;
+    white-space: nowrap;
+
+
+}
+.left-image-app, .right-image-app{
+    padding-top: 180px;
+    margin-right: 60px;
+}
+/* .left-image-app{
+    
+} */
+.right-image-app{
+    padding-top: 170px;
+    margin-left: -100px;
+    z-index: -11;
+}
+.mid-image-app{
+    z-index: 11;
+    margin-top: -1px;
+    margin-left: -160px;
+    position: relative;
+}
+
+
+/* Video CSS */
+.Video-Section{
+    background-color: #223047;
+    padding-bottom: 210px;
+    margin-top: -50px;
+    z-index: 12;
+    position: relative;
+}
+.play-button{
+    margin-left: 600px;
+    margin-top: 200px;
+}
+.watch-heading{
+    margin-left:580px;
+    font-size: 17px;
+    word-spacing: 2px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+.Cras-play-para{
+    text-align: center;
+    word-spacing: 1px;
+    font-size: 14px;
+    padding-top: 30px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+
+/* Download Part CSS */
+.Download-Part{
+    background-image: url("images/map.png");
+
+} 
+.Join-heading{
+    text-align: center;
+    padding-top: 240px;
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 6px;
+}
+.Download-Para{
+    text-align: center;
+    font-size: 17px;
+    word-spacing: 3px;
+    padding-top: 26px;
+    padding-right: 30px;
+}
+.download-part-button{
+    margin-left: 550px;
+    width: 170px;
+    margin-top: 50px;
+    height: 50px;
+    border: none;
+    background-color: #00fff0;
+    font-size: 17px;
+    font-weight: bold;
+    word-spacing: 2.5px;
+    padding-left: 5px;
+    padding-bottom: 6px;
+}
+.download-part-button:hover{
+    background-color: #223047;
+    color: antiquewhite;
+}
+
+
+/* Quote CSS */
+.quote{
+    background-color: #223047;
+    margin-top: 190px;
+    padding-bottom: 118px;
+}
+.Donec-para{
+    text-align: center;
+    padding-top: 130px;
+    word-spacing: 4px;
+    line-height: 30px;
+    color: #08d5cd;
+}
+
+
+/* App Add CSS */
+.App-add{
+    background-color: #f5f6fa;
+    height: 700px;
+}
+.mobile-add-images{
+    padding-top: 83px;
+    padding-left: 35px;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 0;
+    
+}
+.app-add-left-image{
+    z-index: 1;
+    position: absolute;
+
+}
+.app-add-right-image{
+   padding-top: 88px;
+   position: absolute;
+   float: center;
+   left: 385px;
+
+   
+
+
+}
+.Now-Heading{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 210px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.app-add-Cras-para{
+    font-size: 17px;
+    color: #b3bccf;
+    padding-top: 18px;
+    line-height: 28px;
+    word-spacing: 2px;
+}
+.playstore-image{
+    padding-top: 42px;
+    margin-left: -6px;
+}
+.appstore-image{
+    padding-top: 43.5px;
+    margin-left: -17.5px;
+}
+.app-add-get-button{
+    margin-top: 195px;
+    margin-left: 455px;
+    width: 370px;
+    height: 70px;
+    border: none;
+    padding-bottom: 3px;
+    word-spacing: 1px;
+    padding-left: 3.5px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #00fff0;
+    
+}
+.app-add-get-button:hover{
+    background-color: #223047;
+    color: antiquewhite;
+}
+
+
+/* Links CSS */
+.Company-link{
+    padding-left: 100px;
+}
+.Development-link{
+    padding-left: 125px;
+}
+.Marketing-link{
+    padding-left: 150px;
+}
+.Community-link{
+    padding-left: 180px;
+}
+.Info-link{
+    padding-left: 210px;
+}
+.Links-heading{
+    padding-top: 136px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.Sub-headings-Links{
+    padding-top: 20px;
+    line-height: 12px;
+    padding-left: -4px;
+    font-size: 14px;
+    color: #d2d8e2;
+    font-weight: bold;
+}
+.get-links-heading{
+    padding-left: 565px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 80px;
+    word-spacing: 5px;
+}
+.Subscribe-para{
+    font-size: 17px;
+    color:#d2d8e2;
+    padding-top: 10px;
+    padding-left: 400px;
+    font-weight: bolder;
+}
+.links-button-empty{
+    width: 570px;
+    height: 50px;
+    margin-left: 255px;
+    border: none;
+    margin-top: 55px;
+    background-color: #f5f6fa;
+}
+.links-button-empty:hover{
+    background-color: #223047;
+}
+.links-button-Count{
+    width: 170px;
+    margin-left: 197px;
+    margin-top: 55px;
+    height: 50px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-bottom: 7px;
+    background-color: #00fff0;
+}
+.links-button-Count:hover{
+    background-color: #223047;
+    color: wheat;
+}
+
+
+/* Footer CSS */
+.footer{
+    margin-top: 92.5px;
+    background-color: #223047;
+    padding-bottom: 40px;
+}
+.copyright-para{
+    padding-top: 30px;
+    padding-left: 82px;
+    font-size: 17px;
+    color: #08d5cd;
+    font-weight: bold;
+}
+.copyright-para:hover{
+    color: #00fff0;
+}
+.facebook-icon{
+    padding-top: 35px;
+    margin-left: 236.5px;
+}
+.twitter-icon{
+    padding-top: 35.5px;
+    margin-left: 55px;
+}
+.dribble-icon{
+    padding-top: 35px;
+    margin-left: 41px;
+}
+.google-icon{
+    padding-top: 35px;
+    margin-left: 42px;
+}
+.youtube-icon{
+    padding-top: 30px;
+    margin-left: 43px;
+}
+
+
+  /* Responsiveness For Mobile */
+  @media screen and (max-width: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .nav-links{
+        display:none;
+    }
+     .toggle{
+         align-items: right;
+     }
+     .get-button{
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        margin-left: 170px;
+        padding-top: 5px;
+        margin-top: auto;
+     }
+     .Nav-logo{
+        padding-top: 10px; 
+        padding-inline-start: 50px; 
+ 
+     }
+     hr, .dot-iphone,  .dot-Android{
+         display: none;
+     }
+     .Free-button{
+         position: relative;
+        right: 200px;
+     }
+     .window-image{
+         padding-left: 40px;
+         padding-top: 50px;
+         width: 420px;
+         height: 420px;
+     }
+     .Get-heading, .Info-Cras-Para, .App-heading, .App-Cras-Para, .Everthing-App-Heading, .Cras-Para-App-Bottom, .Now-Heading, .app-add-Cras-para{
+         text-align: center;
+     }
+     .Screen-mobile-image{
+          align-self: left;
+          width: 300px;
+     }
+     .download-button, .reach-button{
+         margin-left: 140px;
+
+     }
+     .reach-button{
+         width: 170px;
+     }
+     .cards, .cards-2{
+         width: 370px;
+     }
+     .App-Bottom{
+         margin-top: 30px;
+         background-color: #00fff0;
+     }
+     .three-images-app{
+         display: none;
+     }
+     .play-button{
+         position: absolute;
+         bottom: 200px;
+         right: 150px;
+
+     }
+     .Cras-play-para{
+         position: absolute;
+         text-align: center;
+         padding-top: 80px;
+
+
+     }
+     .download-part-button{
+         position: absolute;
+         right: 100px;
+     }
+     .mobile-add-images{
+         display: none;
+     }
+     .playstore-image{
+         padding-left: 130px;
+     }
+      .appstore-image{
+        padding-left: 140px;  
+     }
+     .Links-part{
+         background-color:#18b3ab;
+     }
+     .app-add-get-button{
+        display: none;
+     }
+     .Development-link, .Company-link, .Marketing-link, .Community-link{
+         padding-right: 100px;
+        text-align: center;
+     }
+      .Marketing-link{
+          padding-right: 140px;
+      }
+      .Development-link{
+        padding-right: 120px;
+      }
+      .Community-link{
+        padding-right: 170px;
+      }
+      .Info-link{
+        padding-right: 270px;  
+      }
+      .get-links-heading, .Subscribe-para, .links-button-empty, .links-button-Count{
+        display: none;
+      }
+      .Links-part{
+          padding-bottom: 50px;
+          
+      }
+      .footer{
+         margin-top: -50px;
+         padding-top: 50px;
+      }
+      .facebook-icon{
+        position: absolute;
+        padding-left: 30px;
+      }
+      .youtube-icon{
+          padding-left: 40px;
+      }
+
+   }
